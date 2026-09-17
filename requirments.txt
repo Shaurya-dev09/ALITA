@@ -1,0 +1,28 @@
+# =========================================================
+# requirements.txt
+# FRIDAY X - Complete Final Version
+# =========================================================
+
+# GUI
+PySide6>=6.6.0
+
+# Voice
+SpeechRecognition>=3.10.0
+edge-tts>=6.1.9
+pygame>=2.5.0
+
+# AI
+google-genai>=0.8.0
+
+# System
+psutil>=5.9.0
+pyautogui>=0.9.54
+Pillow>=10.0.0
+pyperclip>=1.8.2
+
+# Optional but recommended
+screen-brightness-control>=0.22.0
+winshell>=0.6
+
+# Phone (optional)
+# adb + scrcpy should be installed separately on system

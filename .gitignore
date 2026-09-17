@@ -1,0 +1,6 @@
+*.bin
+*.onnx
+*.onnx.json
+*.mp3
+*.wav
+.env
