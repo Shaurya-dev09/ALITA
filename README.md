@@ -25,3 +25,41 @@ ALITA (formerly FRIDAY) is a personal AI operating system built from scratch —
 - **Architecture:** Modular design (core / ui / tools / services)
 
 ## 📁 Project Structure
+ALITA/
+├── core/ # AI engine, orchestrator, memory, voice engine
+├── ui/ # Dashboard, widgets, HUD components
+├── tools/ # System tools, project tools, screen tools
+├── services/ # Weather, WhatsApp, browser, battery services
+├── data/ # Memory and context storage
+└── config.py # Configuration (API keys loaded via .env)
+
+## ⚙️ Setup
+
+1. Clone the repository
+```bash
+git clone https://github.com/Shaurya-dev09/ALITA.git
+cd ALITA
+```
+
+2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+3. Create a `.env` file in the root directory
+
+4. Run the assistant
+```bash
+python main.py
+```
+
+## 🚧 Status
+
+Actively in development — currently building out voice authentication and expanding the tool ecosystem.
+
+## 👤 Creator
+
+Built by **Shaurya** — CSE Core student @ Parul University.
+
+---
+*Note: Voice model files (.onnx) are excluded from this repo due to size — set up your own local TTS models as per requirements.txt.*
