@@ -4,3 +4,23 @@
 *.mp3
 *.wav
 .env
+
+# Python / editor junk
+__pycache__/
+*.pyc
+*.pyo
+.vscode/
+venv/
+.venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Personal data - chat history, saved facts, voice fingerprint, logs, captures
+data/
+memory/
+logs/
+captures/
+*.log
+*.corrupt.bak
